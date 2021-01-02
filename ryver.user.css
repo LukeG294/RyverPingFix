@@ -1,0 +1,18 @@
+/* ==UserStyle==
+@name           Ryver Ping Fix
+@namespace      LukeG294
+@version        1.0.0
+@author         Luke Graham
+@license        MIT
+@updateURL      https://gist.githubusercontent.com/LukeG294/3debb9b8a365a2c1c86898c8b2dec993/raw/ec95f314b41c99b4f3d54017cbf7f822c14dd4ed/PingFix.user.css
+==/UserStyle== */
+
+@-moz-document domain("brainlyus.ryver.com") {
+
+  .mention-user.mention-inactive{
+    background-color:#b80208 ;
+  }
+  .mention-user.mention-inactive{
+    color:white;
+  }
+}

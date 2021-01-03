@@ -1,13 +1,13 @@
 /* ==UserStyle==
 @name           Ryver Ping Fix
 @namespace      LukeG294
-@version        1.2.0
+@version        1.3.5
 @author         Luke Graham
 @license        MIT
 @updateURL      https://raw.githubusercontent.com/LukeG294/RyverPingFix/main/RyverPingFix.user.css
 ==/UserStyle== */
  
-@-moz-document domain("brainlyus.ryver.com") {
+@-moz-document domain("ryver.com") {
  .mention-user.mention-inactive{
     background-color:#b80208;
   }

@@ -1,1 +1,38 @@
+/* ==UserStyle==
+@name           Ignore Me
+@namespace      LukeG294
+@version        1.0.0
+@author         Luke Graham
+@license        MIT
+@updateURL      https://raw.githubusercontent.com/LukeG294/RyverPingFix/main/Ignore.user.css
+==/UserStyle== */
+ 
+@-moz-document domain("brainly.com") {
+  .sg-flex.sg-flex--justify-content-space-evenly.sg-flex--wrap.content.listView{
+    visibility:hidden;
+  }
+  .mint-header{
+    visibility:hidden;
+  }
+  .sub-header.row{
+    visibility:hidden;
+  }
+  .covering-text{
+    visibility:hidden;
+  }
+  .alert-error.pending-wrong{
+    visibility:hidden;
+  }
+  .header{
+    position: absolute;
+    right: 275px;
+    width: 500px;
+    height: 500px;
+    border: 3px dotted black;
+    font-size:50px;
+  }
+  .total-comment{
+    visibility:hidden;
+  }
 
+}
